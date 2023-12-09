@@ -1,14 +1,13 @@
 # Panda Error Based SQLi 
-
-'Panda Error Based SQL injection' (or 'PandaErrorBasedSQLi') is a rudimentary tool for automating 'Errorbased SQL injection' pentest Process, currently specialized in post method, Coded fully in Python, with a few lib.
-'Panda Error Based SQLi'는 Error Based SQL injection의 침투테스트를 위한 초보적인 툴이며, 몇몇 라이브러리를 포함한 파이썬으로 코딩하였습니다.
-해당 코드의 첫 커밋은 블로그에 상술되어 있습니다. [https://blog.naver.com/panda_university/223286579252]
+<br/>'Panda Error Based SQL injection' (or 'PandaErrorBasedSQLi') is a rudimentary tool for automating 'Errorbased SQL injection' pentest Process, currently specialized in post method, Coded fully in Python, with a few lib.
+<br/>'Panda Error Based SQLi'는 Error Based SQL injection의 침투테스트를 위한 초보적인 툴이며, 몇몇 라이브러리를 포함한 파이썬으로 코딩하였습니다.
+<br/>해당 코드의 첫 커밋은 블로그에 상술되어 있습니다. [https://blog.naver.com/panda_university/223286579252]
 
 # Specification
-method : POST
-parameter(fixed at the moment) : UserId, Password, Submit
-Utilized Error Func : extractvalue()
-attack format : normaltic' and extractvalue('1', concat(0x3a, (select query))) and '1'='1
+<br/>method : POST
+<br/>parameter(fixed at the moment) : UserId, Password, Submit
+<br/>Utilized Error Func : extractvalue()
+<br/>attack format : normaltic' and extractvalue('1', concat(0x3a, (select query))) and '1'='1
 
 
 # Required library 필요한 라이브러리
