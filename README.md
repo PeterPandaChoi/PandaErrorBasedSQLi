@@ -28,7 +28,7 @@ pip install lxml
 ~~~
 
 # Basic Process
-This Union SQL Injection goes through 7 steps.
+This Error Based SQL Injection goes through 7 steps.
 1. Find SQLi point [ input : Links and Param(NOT YET) ]
 2. select Func [ Choosing func depending on DBMS(NOT YET) ]
 3. Attack Format [ no input required ]
@@ -36,8 +36,6 @@ This Union SQL Injection goes through 7 steps.
 5. Table Name, by checking schema [ you need to choose which item is the name of a table ]
 6. Column Name, by checking schema [ you need to choose which item is the name of a column ]
 7. Row Name [ you need to choose which item is the name of a row ]
-
-1. 
 
 # Future Plan
 1. Get/POST method selection
